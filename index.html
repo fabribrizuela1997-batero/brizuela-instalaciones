@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Brizuela Instalaciones Eléctricas</title>
+<style>
+:root{--bg:#0d0d0d;--surface:#181818;--text:#f4f4f4;--muted:#b5b5b5;--accent:#ffc800;--on-accent:#111;--line:#2c2c2c;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:dark}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#fafafa;--surface:#fff;--text:#161616;--muted:#555;--line:#e2e2e2;color-scheme:light}}
+:root[data-theme="light"]{--bg:#fafafa;--surface:#fff;--text:#161616;--muted:#555;--line:#e2e2e2;color-scheme:light}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;padding:14px 20px}
+.logo{font-weight:800;letter-spacing:.04em;font-size:15px}
+.logo span{color:var(--accent)}
+.btn{display:inline-block;background:var(--accent);color:var(--on-accent);font-weight:700;padding:12px 22px;border-radius:8px;text-decoration:none}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+.hero{padding:72px 0 56px}
+.hero h1{font-size:clamp(34px,7vw,60px);line-height:1.05;margin:0 0 16px;font-weight:900}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p{color:var(--muted);font-size:18px;max-width:560px;margin:0 0 28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+section{padding:48px 0;border-top:1px solid var(--line)}
+h2{font-size:28px;margin:0 0 24px}
+h2::after{content:"";display:block;width:48px;height:4px;background:var(--accent);margin-top:10px;border-radius:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px}
+.card .ico{font-size:28px}
+.card h3{margin:8px 0 6px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.why li{margin-bottom:10px}
+.why{padding-left:20px;margin:0}
+.contact{text-align:center}
+.contact p{color:var(--muted)}
+footer{padding:24px 0;border-top:1px solid var(--line);color:var(--muted);font-size:14px;text-align:center}
+</style>
+</head>
+<body>
+<header><div class="wrap"><div class="logo">BRIZUELA <span>INSTALACIONES ELÉCTRICAS</span></div><a class="btn" href="#contacto">Presupuesto</a></div></header>
+
+<main>
+<div class="wrap hero">
+<h1>Instalaciones eléctricas <em>seguras</em> y bien hechas</h1>
+<p>Trabajos para hogares, comercios y obras en Malvinas Argentinas y zona de Córdoba. Presupuesto claro, sin vueltas.</p>
+<div class="cta"><a class="btn" href="https://wa.me/5493517704305?text=Hola%2C%20quiero%20pedir%20un%20presupuesto" target="_blank" rel="noopener">Pedir presupuesto por WhatsApp</a><a class="btn ghost" href="#servicios">Ver servicios</a></div>
+</div>
+
+<section id="servicios"><div class="wrap">
+<h2>Servicios</h2>
+<div class="grid">
+<div class="card"><div class="ico">🔌</div><h3>Tomacorrientes</h3><p>Instalación y reemplazo de bocas y tomas, en obra nueva o reformas.</p></div>
+<div class="card"><div class="ico">💡</div><h3>Iluminación</h3><p>Puntos de luz, artefactos y líneas de iluminación para cada ambiente.</p></div>
+<div class="card"><div class="ico">🗄️</div><h3>Tableros eléctricos</h3><p>Armado, ampliación y ordenamiento de tableros.</p></div>
+<div class="card"><div class="ico">🛡️</div><h3>Térmicas y disyuntores</h3><p>Protecciones correctas para cuidar a las personas y a tus equipos.</p></div>
+</div>
+</div></section>
+
+<section><div class="wrap">
+<h2>Por qué elegirme</h2>
+<ul class="why">
+<li><strong>Presupuesto detallado:</strong> mano de obra por ítem, para que sepas qué pagás.</li>
+<li><strong>Trabajo prolijo:</strong> instalaciones pensadas para durar y cumplir la normativa.</li>
+<li><strong>Atención directa:</strong> hablás con quien hace el trabajo.</li>
+</ul>
+</div></section>
+
+<section id="contacto" class="contact"><div class="wrap">
+<h2 style="display:inline-block">Contacto</h2>
+<p>Escribime y coordinamos una visita para presupuestar tu trabajo.</p>
+<a class="btn" href="https://wa.me/5493517704305?text=Hola%2C%20quiero%20pedir%20un%20presupuesto" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+</div></section>
+</main>
+
+<footer>© Brizuela Instalaciones Eléctricas · Malvinas Argentinas, Córdoba</footer>
+</body>
+</html>
